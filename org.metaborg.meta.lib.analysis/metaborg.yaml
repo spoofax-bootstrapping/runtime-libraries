@@ -8,7 +8,6 @@ exports:
   language: "Stratego-Sugar"
   directory: "trans"
 name: "runtime-libraries"
-metaborgBaselineVersion: "2.0.0-baseline-20160405-142357"
 language:
   stratego:
     args:
@@ -27,8 +26,8 @@ language:
     - "-la"
     - "strc"
     format: "ctree"
-id: "org.metaborg:org.metaborg.meta.lib.analysis:2.0.2"
+id: "org.metaborg:org.metaborg.meta.lib.analysis:2.0.3"
 dependencies:
   compile:
-  - "org.metaborg:org.metaborg.meta.lang.esv:2.0.2"
-  - "org.metaborg:org.metaborg.meta.lang.stratego:2.0.0-baseline-20160405-142357"
+  - "org.metaborg:org.metaborg.meta.lang.stratego:2.0.1"
+  - "org.metaborg:org.metaborg.meta.lang.esv:2.0.3"
