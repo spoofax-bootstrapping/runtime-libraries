@@ -26,8 +26,8 @@ language:
     - "-la"
     - "strc"
     format: "ctree"
-id: "org.metaborg:org.metaborg.meta.lib.analysis:2.1.1"
+id: "org.metaborg:org.metaborg.meta.lib.analysis:2.1.2"
 dependencies:
   compile:
-  - "org.metaborg:org.metaborg.meta.lang.stratego:2.1.1"
-  - "org.metaborg:org.metaborg.meta.lang.esv:2.1.1"
+  - "org.metaborg:org.metaborg.meta.lang.stratego:2.1.2"
+  - "org.metaborg:org.metaborg.meta.lang.esv:2.1.2"
